@@ -11,11 +11,14 @@ Both queries are designed to work **incrementally** to reduce cost — but requi
 
 ## 📁 Included Queries
 
-### 1. `01_funnel_summary.sql`
+### 📁 Included Queries
+
+#### 1. [`01_funnel_summary.sql`](https://github.com/AGhayeAli/marketing-funnel-dropoff.sql/blob/main/sql/01_create_funnel_table.sql)
 Builds a session-based funnel breakdown with steps like `first_visit`, `item_view`, `add_to_basket`, `checkout`, and `purchase`. The query creates a table that counts user sessions completing each step per landing page.
 
-### 2. `02_dropoff_analysis.sql`
+#### 2. [`02_dropoff_analysis.sql`](https://github.com/AGhayeAli/marketing-funnel-dropoff.sql/blob/main/sql/02_create_dropoff_table.sql)
 Calculates step-by-step drop-off percentages across the funnel for specified landing pages and totals purchase value per session.
+
 
 ---
 
